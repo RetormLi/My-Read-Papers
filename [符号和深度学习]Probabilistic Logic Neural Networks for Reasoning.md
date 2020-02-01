@@ -12,7 +12,7 @@
 1. 知识图推理的两种方法：**Markov Logic Network**, **knowledge graph embedding method**
 2. knowledge graph embedding method:
 
-- **TransE: defines each relation as a translation vector
+- **TransE**: defines each relation as a translation vector
 - **DistMult**: models the symmetric relation with a bilinear scoring function
 - **ComplEx**: models the asymmetric relations by using a bilinear scoring function in complex space
 - **RotaE**: models multiple relation patterns by defining each relation as a rotation in complex space
