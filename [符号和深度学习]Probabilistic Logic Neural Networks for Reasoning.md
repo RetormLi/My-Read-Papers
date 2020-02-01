@@ -9,10 +9,12 @@
 3. 逻辑规则的权重通过概率网络的学习得到
 
 # 背景
-1. 知识图推理的两种方法：Markov Logic Network, knowledge graph embedding method
+1. 知识图推理的两种方法：**Markov Logic Network**, **knowledge graph embedding method**
 2. knowledge graph embedding method:
-o TransE: defines each relation as a translation vector
-o DistMult models the symmetric relation with a bilinear scoring function
-o ComplEx: models the asymmetric relations by using a bilinear scoring function in complex space
-o RotaE: models multiple relation patterns by defining each relation as a rotation in complex space
+
+- **TransE: defines each relation as a translation vector
+- **DistMult**: models the symmetric relation with a bilinear scoring function
+- **ComplEx**: models the asymmetric relations by using a bilinear scoring function in complex space
+- **RotaE**: models multiple relation patterns by defining each relation as a rotation in complex space
+
 3. 在知识图推理上进行强化学习：训练可以寻找推理路径的Agent
