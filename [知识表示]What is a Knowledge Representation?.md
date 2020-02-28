@@ -74,4 +74,25 @@ pragmatically inevitable.
 两个小的解释延伸出了这种把表示看做surrogate的观点。第一个是，这种方法可以同样很好地处理无形的物体，就像处理齿轮那种有形的物体那样。
 一些对于抽象概念的surrogate，比如行为、过程，其表示仍然允许其在一个实体内部被描述出来，故可以用来被推理使用。
 第二个是，形式化的事物自然可以无损地存在于机器内部，比如数学上的实体，作为形式化的事物，可以精准地被描述出来。
-由于几乎所有推理任务都要面对像处理形式化事物那样处理自然事物（比如那些现实世界中的推理）的需求，从实用的角度说，不完美的替代是不可避免的。
+由于几乎所有推理任务都要面对像处理形式化事物那样处理自然事物（比如那些现实世界中的推理）的需求，从实用的角度说，不完美的替代是不可避免的。  
+# Imperfect surrogates mean incorrect inferences are inevitable
+# 不完美的surrogates意味着不准确的推理是不可避免的
+
+Two important consequences follow from the inevitability of imperfect
+surrogates. One consequence is that in
+describing the natural world, we must
+inevitably lie, by omission at least. At a minimum we must omit some of the
+effectively limitless complexity of the natural world; our descriptions may in
+addition introduce artifacts not present
+in the world.  
+由于不完美的surrogates无法避免，我们可以得到两个重要的推论：第一，在描述自然世界的过程中，我们一定并且必须得作出错误的描述，最少也得有所简化。
+至少，我们必须简化自然世界中实际上一些无限复杂的事物；我们的描述可能会附带一些世界上本没有的人为产物。  
+The second and more important consequence is that all sufficiently broad-based reasoning about the natural world must eventually reach conclusions that are incorrect, independent of the reasoning process used and independent of the representation employed. Sound reasoning cannot save us: If the world model is somehow wrong (and it must be) some conclusions will be incorrect, no matter how carefully drawn. A better representation cannot save us: all representations are imperfect and any imperfection can be a source of error.  
+第二个也是更加重要的一个推论是，所有对于自然世界的足够广域的推理最后都必然得到不正确的结果，这与使用的推理过程和表示方式无关。可靠的推理救不了我们：如果描述世界的模型在某种程度上是错误的（事实上它一定是错误的），那么得到的一些结论就会是错误的，不论得到结论的过程如何严谨。更好的表示方式也救不了我们：所有的表示都是不完美的，并且任何的不完美都可能导致差错。  
+The significance of the error may of course vary; indeed much of the art of selecting a good representation is in finding one that minimizes (or perhaps even eliminates) error for the specific task at hand. But the unavoidable imperfection of surrogates means we can supply at least one guarantee for any entity reasoning in any fashion about the natural world: if it reasons long enough and broadly enough, it is guaranteed to err.  
+差错的意义自然有很多种；事实上，选择一个好的表示方式的重点就是找到能够使得对于所着手的特定任务来说差错最少（或者甚至排除差错）的表示。但是sorrogate的无法避免的不完美意味着我们至少可以对于真实世界推理的任何方式作出至少一个保证：如果作出了足够长足够广的推理，那必定会出错。  
+Drawing only sound inferences thus does not free reasoning from error; it can only ensure that inference is not the source of that error. Given that broad based reasoning will inevitably be wrong, the step from sound inference to other models of inference is thus not a move from total accuracy to error, but is instead a question of balancing off
+the possibility of one more source of error against the gains (e.g., efficiency) it may offer.  
+只进行可靠的推理并不意味着可以摆脱差错。它只能保证推理过程不是差错的来源。给定广域推理一定会是错误的，从可靠推理转向其他推理模型因此也并不是从正确到错误，反而，这其实是对于更多开销（比如效率）和更多错误来源的一个权衡问题。  
+We do not suggest that unsound reasoning ought to be embraced casually, but do claim that, given the inevitability of error even with sound reasoning, it makes sense to evaluate pragmatically the relative costs and benefits that come from using both sound and unsound reasoning methods.  
+我们并不鼓励进行不可靠的推理，但是我们必须指出，即便是可靠推理，差错也是不可避免的。这就使得估计推理方法的相对开销和收益的实用性是有意义的。  
