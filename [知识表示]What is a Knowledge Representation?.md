@@ -3,8 +3,8 @@
 Perhaps the most fundamental question about the concept of knowledge representation is, What is it? We believe that the answer is best
 understood in terms of the five fundamental roles that it plays.  
 对于知识表示的概念来说，最为基本的问题是——知识表示是什么？我们认为通过了解知识表示的五个基本特点，才能更好地理解知识表示。  
-# Role I: A KR is a Surrogate
-# 知识表示是一种surrogate  
+### Role I: A KR is a Surrogate
+### 知识表示是一种surrogate  
 Any intelligent entity that wishes to reason about its world encounters an
 important, inescapable fact: reasoning is a
 process that goes on internally,
@@ -75,8 +75,8 @@ pragmatically inevitable.
 一些对于抽象概念的surrogate，比如行为、过程，其表示仍然允许其在一个实体内部被描述出来，故可以用来被推理使用。
 第二个是，形式化的事物自然可以无损地存在于机器内部，比如数学上的实体，作为形式化的事物，可以精准地被描述出来。
 由于几乎所有推理任务都要面对像处理形式化事物那样处理自然事物（比如那些现实世界中的推理）的需求，从实用的角度说，不完美的替代是不可避免的。  
-# Imperfect surrogates mean incorrect inferences are inevitable
-# 不完美的surrogates意味着不准确的推理是不可避免的
+### Imperfect surrogates mean incorrect inferences are inevitable
+### 不完美的surrogates意味着不准确的推理是不可避免的
 
 Two important consequences follow from the inevitability of imperfect
 surrogates. One consequence is that in
